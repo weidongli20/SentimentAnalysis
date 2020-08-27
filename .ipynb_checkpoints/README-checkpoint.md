@@ -22,22 +22,21 @@ Use descriptive statistics to answer the following questions:
 
 > Which coin had the highest mean positive score?
 >
+>     Bitcoin
+
 > Which coin had the highest negative score?
 >
+>     Bitcoin
+
 > Which coin had the highest positive score?
+>
+>     Ethereum
 
 #### Natural Language Processing
 
-In this section, we will use NLTK and Python to tokenize the text for each coin. Be sure to:
-
-1. Lowercase each word
-2. Remove punctuation
-3. Remove stop words
+Will use NLTK and Python to tokenize the text for each coin. 
 
 Next, look at the ngrams and word frequency for each coin.
-
-1. Use NLTK to produce the ngrams for N = 2.
-2. List the top 10 words for each coin.
 
 Finally, generate word clouds for each coin to summarize the news for each coin.
 
@@ -45,7 +44,7 @@ Finally, generate word clouds for each coin to summarize the news for each coin.
 
 #### Named Entity Recognition
 
-In this section, we will build a named entity recognition model for both coins and visualize the tags using SpaCy.
+Will build a named entity recognition model for both coins and visualize the tags using SpaCy.
 
 
 ---
